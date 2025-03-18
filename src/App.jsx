@@ -14,7 +14,7 @@ function App() {
       <Router>
       <Navbar theme={theme}/>
       <Routes>
-        <Route path="/" element={<Main theme={theme}/> }/>
+        <Route path="/Cartify" element={<Main theme={theme}/> }/>
         <Route path="/login" element={<Login theme={theme}/>} />
         <Route path="/signup" element={<Signup theme={theme}/>} />
       </Routes>

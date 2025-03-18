@@ -55,10 +55,9 @@ const Navbar = ({ theme,search }) => {
         {menuOpen ? <FaTimes /> : <FaBars />}
       </button>
 
-      <Link to="/" className="flex-1 text-center lg:text-left">
+      <Link to="/Cartify" className="flex-1 text-center lg:text-left">
         <Cartify />
       </Link>
-
 
         <div className="hidden lg:flex gap-4">
           <Link to="/login">

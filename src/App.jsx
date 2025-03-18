@@ -11,6 +11,7 @@ function App() {
 
   return (
     <div className={`${theme === "DARK" ? "bg-[#1a1a1a] text-white" : "bg-white text-black"} min-h-screen`}>
+      
       <Router>
       <Navbar theme={theme}/>
       <Routes>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/signup" element={<Signup theme={theme}/>} />
       </Routes>
       </Router>
+     
       <Sidebar theme={theme} setTheme={setTheme} />
      
     </div>
